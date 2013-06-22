@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB Rocket Launcher</string>
+
+    <string name="info">Below is a list of all USB devices connected, to identify the USB Rocket/Missile Launcher, unplug an plug it into the USB OTG cable and click the Search action. The item that is added into the list and removed from the list is the USB Rocket/Missile Launcher.</string>
+
+    <string name="emptylist">No USB device connected, please plug the USB Rocket/Missile Launcher into the USB OTG cable and then click the Search action.</string>
+
+</resources>

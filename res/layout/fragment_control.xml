@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@android:color/background_dark"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewFire"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/fire" />
+
+    <ImageView
+        android:id="@+id/imageViewRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageViewFire"
+        android:src="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/imageViewLeft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@+id/imageViewFire"
+        android:layout_centerVertical="true"
+        android:src="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/imageViewUp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageViewFire"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/imageViewDown"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageViewFire"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/down" />
+
+</RelativeLayout>
